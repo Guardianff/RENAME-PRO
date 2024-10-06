@@ -1,17 +1,17 @@
 import os, re
 
 
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "6134757239:AAEwejjgkvEN6qLwx8IlMiX7AkL8_VEnMtI")
-API_ID = int(os.environ.get("API_ID", "15257211"))
-API_HASH = os.environ.get("API_HASH", "8b7cf73ce577720d74a213bbb98f4104")
-OWNER = int(os.environ.get("OWNER", "1350212613"))
-BOT_USERNAME = os.environ.get('BOT_USERNAME', "renamedo02_bot")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
+API_ID = int(os.environ.get("API_ID", ""))
+API_HASH = os.environ.get("API_HASH", "")
+OWNER = int(os.environ.get("OWNER", ""))
+BOT_USERNAME = os.environ.get('BOT_USERNAME', "")
 
 FORCE_SUBS = os.environ.get("FORCE_SUBS", "am_films")
-LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1001583883335"))
+LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", ""))
 
-DB_URL = os.environ.get("DB_URL", "mongodb+srv://AMMAAAAA:AMMAAAAA@cluster0.mi7ldio.mongodb.net/?retryWrites=true&w=majority")
-DB_NAME = os.environ.get("DB_NAME", "GUARDIANff")
+DB_URL = os.environ.get("DB_URL", "")
+DB_NAME = os.environ.get("DB_NAME", "")
 
 STRING = os.environ.get("STRING", "")
 BOT_PIC = os.environ.get("BOT_PIC", "https://graph.org/file/cca849a2f63053fa3f622.jpg")
