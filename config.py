@@ -1,13 +1,13 @@
 import os, re
 
 
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "6134757239:AAEwejjgkvEN6qLwx8IlMiX7AkL8_VEnMtI")
 API_ID = int(os.environ.get("API_ID", "15257211"))
 API_HASH = os.environ.get("API_HASH", "8b7cf73ce577720d74a213bbb98f4104")
 OWNER = int(os.environ.get("OWNER", "1350212613"))
-BOT_USERNAME = os.environ.get('BOT_USERNAME', "")
+BOT_USERNAME = os.environ.get('BOT_USERNAME', "renamedo02_bot")
 
-FORCE_SUBS = os.environ.get("FORCE_SUBS", "")
+FORCE_SUBS = os.environ.get("FORCE_SUBS", "am_films")
 LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1001583883335"))
 
 DB_URL = os.environ.get("DB_URL", "mongodb+srv://AMMAAAAA:AMMAAAAA@cluster0.mi7ldio.mongodb.net/?retryWrites=true&w=majority")
